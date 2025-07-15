@@ -195,3 +195,6 @@ cython_debug/
 
 # File too big to push to github
 train.csv
+
+# File to clean data (exclude from GitHub)
+create_clean_sample.py

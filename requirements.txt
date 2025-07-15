@@ -1,0 +1,42 @@
+# Up-to-date package management tools
+pip
+setuptools
+wheel
+
+
+# ======================================================
+# JUPYTER (OPTIONAL, NEEDED FOR NOTEBOOKS)
+# ======================================================
+
+# Core IPython package that provides an enhanced interactive Python shell (10-15 MB).
+ipython
+
+# Core Jupyter functionality required for running notebooks in VS Code (50-60 MB).
+jupyter
+
+# Kernel interface for Jupyter notebooks (required for proper kernel registration)
+ipykernel
+
+# Interactive widgets (often used in notebooks).
+ipywidgets
+
+
+# ======================================================
+# DATA ANALYSIS 
+# ======================================================
+
+# Numerical computations and arrays (20-30 MB)
+numpy
+
+# Data manipulation and analysis (built on numpy, 10-20 MB)
+pandas
+
+# ======================================================
+# VISUALIZATION
+# ======================================================
+
+# Core library for creating visualizations (~30 MB)
+matplotlib
+
+# Statistical data visualization library built on matplotlib (~2-5 MB)
+seaborn

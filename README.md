@@ -1,8 +1,29 @@
-# capstone_project_krabbe
+# 📦 supply-chain-demand-forecasting
 
-This project uses the [Grupo Bimbo Inventory Demand](https://www.kaggle.com/competitions/grupo-bimbo-inventory-demand) dataset, which contains over 7 million records.
+Predicting weekly product demand using machine learning models and historical retail supply chain data.
 
-Due to GitHub's file size limitations, the full `train.csv` is not included in this repository, but is being ran locally on the machine
+---
+
+## 🔍 Overview
+
+This project applies machine learning to forecast product demand using historical supply chain data. Using publicly available inventory data, the objective of the project is to build predictive models that improve demand precision, leading to more informed decision making.
+---
+
+## Data Source
+
+[Grupo Bimbo Inventory Demand](https://www.kaggle.com/competitions/grupo-bimbo-inventory-demand)
+
+Due to the size of the datatset, 10,000 random rows were pulled from the dataset and used for this project.
+
+## 📊 Modeling Results
+
+| Metric         | Linear Regression | Random Forest Regressor | Gradient Boosting Regressor | Notes |
+|----------------|--------------------|--------------------------|------------------------------|-------|
+| **R² Score**   | 0.9662             | 0.9603                   | 0.9658                       | All models performed very well, but Linear Regression slightly outperformed the others |
+| **MAE**        | $0.12              | $0.10                    | $0.11                        | Random Forest had the lowest average error, but difference is marginal |
+| **RMSE**       | $2.33              | $2.53                    | $2.34                        | Gradient Boosting had slightly higher RMSE than Linear Regression |
+
+## Virtual Environment Setup and Pushing to Github
 
 #### I opened the project in VS Code
 

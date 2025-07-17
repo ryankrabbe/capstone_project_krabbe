@@ -198,3 +198,9 @@ train.csv
 
 # File to clean data (exclude from GitHub)
 create_clean_sample.py
+
+# Charts posted to overleaf
+boxplots.png
+heatmap.png
+histogram.png
+top_products.png

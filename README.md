@@ -19,9 +19,9 @@ Due to the size of the datatset, 10,000 random rows were pulled from the dataset
 
 | Metric         | Linear Regression | Random Forest Regressor | Gradient Boosting Regressor | Notes |
 |----------------|--------------------|--------------------------|------------------------------|-------|
-| **R² Score**   | 0.9662             | 0.9603                   | 0.9658                       | All models performed very well, but Linear Regression slightly outperformed the others |
-| **MAE**        | $0.12              | $0.10                    | $0.11                        | Random Forest had the lowest average error, but difference is marginal |
-| **RMSE**       | $2.33              | $2.53                    | $2.34                        | Gradient Boosting had slightly higher RMSE than Linear Regression |
+| **R² Score**   | 0.9662             | 0.9603                   | 0.9658                       | Linear Regression slightly outperformed the other models |
+| **MAE**        | $0.12              | $0.10                    | $0.11                        | Random Forest had the lowest average error between the models |
+| **RMSE**       | $2.33              | $2.53                    | $2.34                        | Gradient Boosting performed similiary to Linear Regression, but had slightly higher RMSE |
 
 ## Virtual Environment Setup and Pushing to Github
 

@@ -204,3 +204,14 @@ boxplots.png
 heatmap.png
 histogram.png
 top_products.png
+model_comparision.png
+actual_vs_predicted_gb.png
+feature_importance.png
+feature_importance_rf.png
+mae_comparision_labeled.png
+mae_comparision.png
+model_performance_comparision.png
+r2_comparision.png
+residual_distribution.png
+rmse_comparision.png
+rmse_comparision_labeled.png

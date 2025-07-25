@@ -26,8 +26,8 @@ This project applies machine learning to forecast product demand using historica
 
 Three models were trained and evaluated:
 - **Linear Regression**
-- **Random Forest Regressor**
-- **Gradient Boosting Regressor**
+- **Random Forest**
+- **Gradient Boosting**
 
 **Evaluation Metrics:**
 
@@ -53,7 +53,7 @@ Due to file size, a random sample of 10,000 rows was used for modeling.
 - Residual Distribution Plot
 - Bar Charts Comparing Model Metrics (R², MAE, RMSE)
 
-All visualizations are available in the `figures/` folder and in the final report.
+All visualizations are available in the final report.
 
 ---
 
@@ -64,6 +64,8 @@ All visualizations are available in the `figures/` folder and in the final repor
 ```bash
 git clone https://github.com/ryankrabbe/supply-chain-demand-forecasting.git
 cd supply-chain-demand-forecasting
+
+```
 
 ### 2. Create and Activate Virtual Environment
 

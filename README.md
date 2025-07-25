@@ -11,14 +11,15 @@ This project applies machine learning to forecast product demand using historica
 
 ## 📁 Project Structure
 
-📦 supply-chain-demand-forecasting
-│
+```
+supply-chain-demand-forecasting/
 ├── data/ # Sample of cleaned dataset (if shared)
 ├── figures/ # Visualizations (e.g., actual vs predicted, residuals)
 ├── modeling.ipynb # Jupyter notebook with modeling pipeline
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
 └── .gitignore # Files excluded from version control
+```
 
 ---
 

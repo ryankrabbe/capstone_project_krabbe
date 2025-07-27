@@ -1,6 +1,6 @@
-# 📦 supply-chain-demand-forecasting
+# 📦 Supply Chain Demand Forecasting
 
-Predicting weekly product demand using machine learning models and historical retail supply chain data.
+Predicting product demand using machine learning models and historical retail supply chain data.
 
 ---
 
